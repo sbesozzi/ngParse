@@ -6,9 +6,10 @@ import config from './config';
 import AddController from './controllers/add.controller';
 import ListController from './controllers/list.controller';
 import SingleController from './controllers/single.controller';
+import EditController from './controllers/edit.controller';
+
 
 import WhiskeyService from './services/whiskey.service';
-
 
 angular
   .module('app', ['ui.router'])
@@ -25,5 +26,6 @@ angular
   .controller('AddController', AddController)
   .controller('ListController', ListController)
   .controller('SingleController', SingleController)
+  .controller('EditController', EditController)
   .service('WhiskeyService', WhiskeyService)
 ;

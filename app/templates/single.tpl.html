@@ -1,3 +1,8 @@
 <h3>{{ singleWhiskey.name }}</h3>
 
 <p>This whiskey is made by the company {{ singleWhiskey.maker}}</p>
+
+<hr>
+
+<a href="#/edit/{{ singleWhiskey.objectId }}">Edit Me</a> | 
+<a href="#" ng-click="deleteMe(singleWhiskey)">Delete Me</a>

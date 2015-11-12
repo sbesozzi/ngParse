@@ -21,7 +21,13 @@ let config = function($stateProvider, $urlRouterProvider) {
       url: '/add',
       controller: 'AddController',
       templateUrl: 'templates/add.tpl.html'
+    })
+    .state('root.edit', {
+      url: '/edit/:whiskeyId',
+      controller: 'EditController',
+      templateUrl: 'templates/edit.tpl.html'
     });
+
 
 };
 
