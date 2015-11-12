@@ -1,6 +1,6 @@
-## Welcome to My Project
+## Angular Parse
 
-> I am your Readme.md file, you should probably update me.
+> Creating an app using AngularJS and Parse
 
 
 ## Usage
